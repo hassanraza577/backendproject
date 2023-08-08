@@ -1,0 +1,39 @@
+.shipment-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .shipment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .shipment-table th,
+  .shipment-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .shipment-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .export-button, .shipment-button{
+ background-color: rgb(99, 175, 99);
+ border: none;
+ padding: 10px 15px;
+ margin-right: 10px;
+ color: white;
+ cursor: pointer;
+  }
+  .mainpageheading{
+    font-weight: 400;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 5px 0px;
+  }
